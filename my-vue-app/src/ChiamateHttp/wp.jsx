@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Wp() {
   const [wpData, setWpData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5004/wp') // La tua API Flask per wp
+    fetch('http://127.0.0.1:5004/wp') // La tua API Flask per wp
       .then(response => response.json())
       .then(data => setWpData(data))
       .catch(error => console.error('Errore nel recupero dei dati: ', error));

@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Assenza() {
   const [assenzaData, setAssenzaData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5004/assenza') // La tua API Flask per assenza
+    fetch('http://127.0.0.1:5004/assenza') // La tua API Flask per assenza
       .then(response => response.json())
       .then(data => setAssenzaData(data))
       .catch(error => console.error('Errore nel recupero dei dati: ', error));

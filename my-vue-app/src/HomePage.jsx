@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import './HomePage.css'; // Stile importato come nel tuo esempio
 
@@ -12,7 +11,7 @@ function HomePage() {
       <img src={logo} alt="Logo" className="home-logo" />
 
       <header className="home-header">
-        <h1>Benvenuto in Gestione DataBase dell'Accademia!</h1>
+        <h1>Benvenuto in Gestione DataBase dell&apos;Accademia!</h1>
         <p>Qui puoi organizzare e modificare le tue tabelle!</p>
       </header>
 

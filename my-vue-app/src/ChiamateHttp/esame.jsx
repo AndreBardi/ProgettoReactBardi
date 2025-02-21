@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Esame() {
   const [esami, setEsamiData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5004/esame') // La tua API Flask per esami
+    fetch('http://127.0.0.1:5004/esame') // La tua API Flask per esami
       .then(response => response.json())
       .then(data => setEsamiData(data))
       .catch(error => console.error('Errore nel recupero dei dati: ', error));
