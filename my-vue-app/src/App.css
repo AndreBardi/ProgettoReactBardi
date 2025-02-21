@@ -1,0 +1,107 @@
+/* Navbar Style */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cf740c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Assicurati che la navbar stia sopra il contenuto */
+}
+
+/* Logo in alto a sinistra */
+.header-logo {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Contenitore per il logo */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Stile per la navbar */
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #fff; /* Cambia colore al passaggio del mouse */
+}
+
+/* Active link */
+.nav-item.active {
+  font-weight: bold;
+  color: #fff; /* Colore per il link attivo */
+}
+
+/* Stile per il contenuto principale */
+.main-content {
+  margin-top: 80px; /* Aggiungi spazio per la navbar */
+  padding: 20px;
+}
+
+/* Aggiungi padding alle sezioni */
+main {
+  padding: 20px;
+}
+
+/* Stile per le pagine */
+.home-container, .wp-container, .assenza-container, .docente-container, .studente-container, .progetto-container {
+  text-align: center;
+}
+
+/* Opzionale: Stile per le cards o altri componenti delle pagine */
+.card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Differenzia le cards */
+.card h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Stile per la home */
+.home-header {
+  margin-bottom: 20px;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff9900bb;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+  background-color: #ff9900;
+}

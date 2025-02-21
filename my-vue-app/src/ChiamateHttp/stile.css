@@ -1,0 +1,142 @@
+#root {
+  margin: auto;
+  min-width: 70%; /* Aumentata ulteriormente la larghezza minima */
+  background-color: #ff9900;
+  justify-content: center;
+  display: flex;
+}
+
+/* Stile per la tabella */
+table {
+  width: 98%; /* Aumentata la larghezza della tabella */
+  max-width: 750px; /* Ampliata ulteriormente la larghezza massima */
+  margin: 0 auto; /* Centrata la tabella */
+  border-collapse: collapse; /* Per evitare doppi bordi */
+  font-family: 'Arial', sans-serif;
+  table-layout: fixed; /* Imposta larghezza uniforme per tutte le colonne */
+}
+
+/* Intestazioni della tabella */
+table thead {
+  background-color: #c9670c; /* Colore di sfondo grigio scuro */
+  color: white; /* Colore del testo bianco */
+}
+
+/* Righe della tabella */
+table tbody tr:nth-child(odd) {
+  background-color: rgb(255, 183, 28)bb;; /* Colore di sfondo per le righe dispari (grigio chiaro) */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #bb4b4b; /* Colore di sfondo per le righe pari (bianco) */
+}
+
+/* Stile per le celle della tabella */
+table td, table th {
+  height: 50px; /* Aumentata l'altezza delle celle */
+  padding: 10px; /* Maggiore spazio per migliorare la leggibilità */
+  text-align: center; /* Allinea il testo al centro */
+  border: 1px solid #dee2e6; /* Bordo grigio chiaro */
+}
+
+/* Effetto al passaggio del mouse su una riga */
+table tbody tr:hover {
+  background-color: #ffffffcb; /* Colore di sfondo quando si passa il mouse su una riga */
+}
+
+/* Bordo della tabella */
+table {
+  border: 2px solid #c23434 ; /* Colore bordo blu chiaro */
+  border-radius: 10px; /* Angoli arrotondati */
+}
+
+/* Stile per le celle di intestazione */
+table th {
+  font-weight: bold; /* Testo in grassetto */
+  text-transform: uppercase; /* Testo maiuscolo */
+}
+
+/* Colore del bordo per le intestazioni */
+table th {
+  border-bottom: 2px solid #810202; /* Bordo inferiore blu chiaro per le intestazioni */
+}
+
+/* Colore del bordo per le righe */
+table td {
+  border-bottom: 1px solid #c23434; /* Bordo blu chiaro per le celle */
+}
+
+/* Stile per il logo */
+.home-logo {
+  width: 120px; /* Imposta una larghezza fissa per il logo */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Stile per la home page */
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header */
+.home-header {
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* Card */
+.home-card {
+  background-color: 86c08f;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  text-align: center;
+}
+
+.home-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.home-card p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.home-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Card hover effect */
+.home-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.home-card a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.home-footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}

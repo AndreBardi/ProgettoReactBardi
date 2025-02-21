@@ -1,0 +1,512 @@
+{
+    "wp": [
+      {
+        "id": 1,
+        "nome": "WP1",
+        "descrizione": "Introduzione alla programmazione",
+        "data_inizio": "2025-01-10",
+        "data_fine": "2025-03-15",
+        "ore": 120
+      },
+      {
+        "id": 2,
+        "nome": "WP2",
+        "descrizione": "Sviluppo Web Front-End",
+        "data_inizio": "2025-02-01",
+        "data_fine": "2025-04-01",
+        "ore": 100
+      },
+      {
+        "id": 3,
+        "nome": "WP3",
+        "descrizione": "Sviluppo Back-End",
+        "data_inizio": "2025-02-01",
+        "data_fine": "2027-06-02",
+        "ore": 400
+      },
+      {
+        "id": 4,
+        "nome": "WP4",
+        "descrizione": "Programmazione in Python",
+        "data_inizio": "2025-04-10",
+        "data_fine": "2025-06-20",
+        "ore": 80
+      },
+      {
+        "id": 5,
+        "nome": "WP5",
+        "descrizione": "Tecniche di Database",
+        "data_inizio": "2025-05-01",
+        "data_fine": "2025-07-15",
+        "ore": 100
+      },
+      {
+        "id": 6,
+        "nome": "WP6",
+        "descrizione": "Sicurezza Informatica",
+        "data_inizio": "2025-06-01",
+        "data_fine": "2025-09-01",
+        "ore": 120
+      },
+      {
+        "id": 7,
+        "nome": "WP7",
+        "descrizione": "Intelligenza Artificiale",
+        "data_inizio": "2025-07-01",
+        "data_fine": "2025-10-01",
+        "ore": 140
+      },
+      {
+        "id": 8,
+        "nome": "WP8",
+        "descrizione": "Reti di Calcolatori",
+        "data_inizio": "2025-08-01",
+        "data_fine": "2025-11-01",
+        "ore": 120
+      },
+      {
+        "id": 9,
+        "nome": "WP9",
+        "descrizione": "Sviluppo Mobile con Android",
+        "data_inizio": "2025-09-01",
+        "data_fine": "2025-12-01",
+        "ore": 160
+      },
+      {
+        "id": 10,
+        "nome": "WP10",
+        "descrizione": "Big Data e Analisi",
+        "data_inizio": "2025-10-01",
+        "data_fine": "2026-01-01",
+        "ore": 200
+      }
+    ],
+  
+    "progetto": [
+      {
+        "id": 1,
+        "nome": "Progetto A",
+        "descrizione": "Sviluppo di un'app per la gestione delle presenze",
+        "data_inizio": "2025-02-01",
+        "data_fine": "2025-04-01",
+        "stato": "In corso"
+      },
+      {
+        "id": 2,
+        "nome": "Progetto B",
+        "descrizione": "Sviluppo di un sito web per la visualizzazione delle assenze",
+        "data_inizio": "2025-01-01",
+        "data_fine": "2025-03-15",
+        "stato": "Concluso"
+      },
+      {
+        "id": 3,
+        "nome": "Progetto C",
+        "descrizione": "Creazione di un sistema di gestione per corsi universitari",
+        "data_inizio": "2025-02-15",
+        "data_fine": "2025-05-30",
+        "stato": "In corso"
+      },
+      {
+        "id": 4,
+        "nome": "Progetto D",
+        "descrizione": "Sviluppo di un'applicazione mobile per la gestione delle spese",
+        "data_inizio": "2025-03-01",
+        "data_fine": "2025-06-01",
+        "stato": "In corso"
+      },
+      {
+        "id": 5,
+        "nome": "Progetto E",
+        "descrizione": "Creazione di una piattaforma e-learning",
+        "data_inizio": "2025-04-01",
+        "data_fine": "2025-08-01",
+        "stato": "In corso"
+      },
+      {
+        "id": 6,
+        "nome": "Progetto F",
+        "descrizione": "Implementazione di un sistema di gestione magazzino",
+        "data_inizio": "2025-05-01",
+        "data_fine": "2025-09-01",
+        "stato": "In corso"
+      },
+      {
+        "id": 7,
+        "nome": "Progetto G",
+        "descrizione": "Realizzazione di un sito web per una startup",
+        "data_inizio": "2025-06-01",
+        "data_fine": "2025-10-01",
+        "stato": "Concluso"
+      },
+      {
+        "id": 8,
+        "nome": "Progetto H",
+        "descrizione": "Sviluppo di un'app di prenotazione per ristoranti",
+        "data_inizio": "2025-07-01",
+        "data_fine": "2025-11-01",
+        "stato": "In corso"
+      },
+      {
+        "id": 9,
+        "nome": "Progetto I",
+        "descrizione": "Creazione di una piattaforma per la gestione di eventi",
+        "data_inizio": "2025-08-01",
+        "data_fine": "2025-12-01",
+        "stato": "In corso"
+      },
+      {
+        "id": 10,
+        "nome": "Progetto J",
+        "descrizione": "Realizzazione di un software per la gestione dei progetti",
+        "data_inizio": "2025-09-01",
+        "data_fine": "2026-01-01",
+        "stato": "Concluso"
+      }
+    ],
+  
+    "docente": [
+      {
+        "id": 1,
+        "nome": "Prof. Mario Rossi",
+        "email": "mario.rossi@example.com",
+        "materia": "Programmazione",
+        "telefono": "123-456-7890"
+      },
+      {
+        "id": 2,
+        "nome": "Prof.ssa Anna Bianchi",
+        "email": "anna.bianchi@example.com",
+        "materia": "Sviluppo Web",
+        "telefono": "098-765-4321"
+      },
+      {
+        "id": 3,
+        "nome": "Prof. Giovanni Verdi",
+        "email": "giovanni.verdi@example.com",
+        "materia": "Reti di Calcolatori",
+        "telefono": "333-444-5555"
+      },
+      {
+        "id": 4,
+        "nome": "Prof.ssa Lucia Neri",
+        "email": "lucia.neri@example.com",
+        "materia": "Intelligenza Artificiale",
+        "telefono": "444-555-6666"
+      },
+      {
+        "id": 5,
+        "nome": "Prof. Marco Gialli",
+        "email": "marco.gialli@example.com",
+        "materia": "Sicurezza Informatica",
+        "telefono": "555-666-7777"
+      },
+      {
+        "id": 6,
+        "nome": "Prof.ssa Carla Rossi",
+        "email": "carla.rossi@example.com",
+        "materia": "Programmazione Avanzata",
+        "telefono": "666-777-8888"
+      },
+      {
+        "id": 7,
+        "nome": "Prof. Stefano Bianchi",
+        "email": "stefano.bianchi@example.com",
+        "materia": "Sviluppo Mobile",
+        "telefono": "777-888-9999"
+      },
+      {
+        "id": 8,
+        "nome": "Prof.ssa Sara Verdi",
+        "email": "sara.verdi@example.com",
+        "materia": "Database",
+        "telefono": "888-999-0000"
+      },
+      {
+        "id": 9,
+        "nome": "Prof. Luigi Neri",
+        "email": "luigi.neri@example.com",
+        "materia": "Matematica Discreta",
+        "telefono": "999-000-1111"
+      },
+      {
+        "id": 10,
+        "nome": "Prof.ssa Laura Gialli",
+        "email": "laura.gialli@example.com",
+        "materia": "Statistica",
+        "telefono": "000-111-2222"
+      }
+    ],
+  
+    "studente": [
+      {
+        "id": 1,
+        "nome": "Giuseppe Verdi",
+        "email": "giuseppe.verdi@example.com",
+        "matricola": "S12345",
+        "data_nascita": "2000-05-12",
+        "corso": "Ingegneria Informatica"
+      },
+      {
+        "id": 2,
+        "nome": "Luisa Gialli",
+        "email": "luisa.gialli@example.com",
+        "matricola": "S12346",
+        "data_nascita": "2001-08-22",
+        "corso": "Ingegneria delle Telecomunicazioni"
+      },
+      {
+        "id": 3,
+        "nome": "Carlo Neri",
+        "email": "carlo.neri@example.com",
+        "matricola": "S12347",
+        "data_nascita": "2000-03-11",
+        "corso": "Ingegneria Informatica"
+      },
+      {
+        "id": 4,
+        "nome": "Maria Rossi",
+        "email": "maria.rossi@example.com",
+        "matricola": "S12348",
+        "data_nascita": "2002-01-15",
+        "corso": "Matematica"
+      },
+      {
+        "id": 5,
+        "nome": "Francesco Bianchi",
+        "email": "francesco.bianchi@example.com",
+        "matricola": "S12349",
+        "data_nascita": "2001-04-10",
+        "corso": "Fisica"
+      },
+      {
+        "id": 6,
+        "nome": "Luca Gialli",
+        "email": "luca.gialli@example.com",
+        "matricola": "S12350",
+        "data_nascita": "2000-07-25",
+        "corso": "Ingegneria delle Telecomunicazioni"
+      },
+      {
+        "id": 7,
+        "nome": "Alessandra Verdi",
+        "email": "alessandra.verdi@example.com",
+        "matricola": "S12351",
+        "data_nascita": "2002-11-03",
+        "corso": "Ingegneria Informatica"
+      },
+      {
+        "id": 8,
+        "nome": "Giulia Rossi",
+        "email": "giulia.rossi@example.com",
+        "matricola": "S12352",
+        "data_nascita": "2003-05-20",
+        "corso": "Ingegneria delle Telecomunicazioni"
+      },
+      {
+        "id": 9,
+        "nome": "Andrea Neri",
+        "email": "andrea.neri@example.com",
+        "matricola": "S12353",
+        "data_nascita": "2000-02-17",
+        "corso": "Fisica"
+      },
+      {
+        "id": 10,
+        "nome": "Simona Bianchi",
+        "email": "simona.bianchi@example.com",
+        "matricola": "S12354",
+        "data_nascita": "2001-06-30",
+        "corso": "Matematica"
+      }
+    ],
+  
+    "assenza": [
+      {
+        "id": 1,
+        "studente_id": 1,
+        "data": "2025-02-01",
+        "motivo": "Malattia"
+      },
+      {
+        "id": 2,
+        "studente_id": 2,
+        "data": "2025-02-05",
+        "motivo": "Impegno personale"
+      },
+      {
+        "id": 3,
+        "studente_id": 3,
+        "data": "2025-02-10",
+        "motivo": "Malattia"
+      },
+      {
+        "id": 4,
+        "studente_id": 4,
+        "data": "2025-02-15",
+        "motivo": "Impegno personale"
+      },
+      {
+        "id": 5,
+        "studente_id": 5,
+        "data": "2025-02-20",
+        "motivo": "Malattia"
+      },
+      {
+        "id": 6,
+        "studente_id": 6,
+        "data": "2025-02-25",
+        "motivo": "Viaggio"
+      },
+      {
+        "id": 7,
+        "studente_id": 7,
+        "data": "2025-03-01",
+        "motivo": "Motivi familiari"
+      },
+      {
+        "id": 8,
+        "studente_id": 8,
+        "data": "2025-03-05",
+        "motivo": "Malattia"
+      },
+      {
+        "id": 9,
+        "studente_id": 9,
+        "data": "2025-03-10",
+        "motivo": "Impegno personale"
+      },
+      {
+        "id": 10,
+        "studente_id": 10,
+        "data": "2025-03-15",
+        "motivo": "Viaggio"
+      }
+    ],
+  
+    "corso": [
+      {
+        "id": 1,
+        "nome": "Programmazione Avanzata",
+        "descrizione": "Corso di programmazione in linguaggi ad oggetti",
+        "durata_ore": 60
+      },
+      {
+        "id": 2,
+        "nome": "Sviluppo Web con React",
+        "descrizione": "Corso per lo sviluppo di applicazioni web moderne",
+        "durata_ore": 80
+      },
+      {
+        "id": 3,
+        "nome": "Programmazione in C++",
+        "descrizione": "Corso di programmazione in C++",
+        "durata_ore": 70
+      },
+      {
+        "id": 4,
+        "nome": "Matematica Discreta",
+        "descrizione": "Corso di matematica applicata alla programmazione",
+        "durata_ore": 90
+      },
+      {
+        "id": 5,
+        "nome": "Fisica 1",
+        "descrizione": "Corso di fisica per ingegneria",
+        "durata_ore": 80
+      },
+      {
+        "id": 6,
+        "nome": "Algoritmi e Strutture Dati",
+        "descrizione": "Corso sui fondamenti degli algoritmi e delle strutture dati",
+        "durata_ore": 100
+      },
+      {
+        "id": 7,
+        "nome": "Ingegneria del Software",
+        "descrizione": "Corso di ingegneria del software per il ciclo di vita del software",
+        "durata_ore": 90
+      },
+      {
+        "id": 8,
+        "nome": "Reti di Calcolatori",
+        "descrizione": "Corso di reti di calcolatori e architetture di rete",
+        "durata_ore": 80
+      },
+      {
+        "id": 9,
+        "nome": "Teoria dei Giochi",
+        "descrizione": "Corso di teoria dei giochi applicata alla programmazione",
+        "durata_ore": 75
+      },
+      {
+        "id": 10,
+        "nome": "Intelligenza Artificiale con Python",
+        "descrizione": "Corso per lo sviluppo di algoritmi di IA utilizzando Python",
+        "durata_ore": 100
+      }
+    ],
+      "esame": [
+        {
+          "id": 1,
+          "studente": "Studente 1",
+          "data": "2025-06-10",
+          "materia": "Matematica"
+        },
+        {
+          "id": 2,
+          "studente": "Studente 2",
+          "data": "2025-06-15",
+          "materia": "Fisica"
+        },
+        {
+          "id": 3,
+          "studente": "Studente 3",
+          "data": "2025-07-10",
+          "materia": "Chimica"
+        },
+        {
+          "id": 4,
+          "studente": "Studente 4",
+          "data": "2025-07-15",
+          "materia": "Informatica"
+        },
+        {
+          "id": 5,
+          "studente": "Studente 5",
+          "data": "2025-07-20",
+          "materia": "Biologia"
+        },
+        {
+          "id": 6,
+          "studente": "Studente 6",
+          "data": "2025-08-10",
+          "materia": "Storia"
+        },
+        {
+          "id": 7,
+          "studente": "Studente 7",
+          "data": "2025-08-15",
+          "materia": "Geografia"
+        },
+        {
+          "id": 8,
+          "studente": "Studente 8",
+          "data": "2025-08-20",
+          "materia": "Letteratura"
+        },
+        {
+          "id": 9,
+          "studente": "Studente 9",
+          "data": "2025-09-10",
+          "materia": "Filosofia"
+        },
+        {
+          "id": 10,
+          "studente": "Studente 10",
+          "data": "2025-09-15",
+          "materia": "Economia"
+        }
+      ]    
+   }
+  
