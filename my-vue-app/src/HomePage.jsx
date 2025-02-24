@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './HomePage.css'; // Stile importato come nel tuo esempio
+import './HomePage.css';
 
 // Importa l'immagine del logo
 import logo from './academy.png';
@@ -7,7 +7,6 @@ import logo from './academy.png';
 function HomePage() {
   return (
     <div className="home-container">
-      {/* Logo posizionato in alto a destra */}
       <img src={logo} alt="Logo" className="home-logo" />
 
       <header className="home-header">
@@ -28,7 +27,6 @@ function HomePage() {
           <Link to="/assenza" className="home-link">Vai ad Assenze</Link>
         </div>
 
-        {/* Aggiungiamo altre tabelle */}
         <div className="home-card">
           <h2>Lista Progetti</h2>
           <p>Tutti i progetti correnti</p>
