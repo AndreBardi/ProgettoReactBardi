@@ -1,74 +1,74 @@
 #root {
   margin: auto;
-  min-width: 70%; /* Aumentata ulteriormente la larghezza minima */
+  min-width: 70%; 
   background-color: #ff9900;
   justify-content: center;
   display: flex;
 }
 
-/* Stile per la tabella */
+/* Stile tabella */
 table {
-  width: 98%; /* Aumentata la larghezza della tabella */
-  max-width: 750px; /* Ampliata ulteriormente la larghezza massima */
-  margin: 0 auto; /* Centrata la tabella */
-  border-collapse: collapse; /* Per evitare doppi bordi */
+  width: 98%; 
+  max-width: 750px; 
+  margin: 0 auto; 
+  border-collapse: collapse; 
   font-family: 'Arial', sans-serif;
-  table-layout: fixed; /* Imposta larghezza uniforme per tutte le colonne */
+  table-layout: fixed; 
 }
 
-/* Intestazioni della tabella */
+/* Intestazioni tabella */
 table thead {
-  background-color: #c9670c; /* Colore di sfondo grigio scuro */
-  color: white; /* Colore del testo bianco */
+  background-color: #c9670c;
+  color: white;
 }
 
-/* Righe della tabella */
+/* Righe tabella */
 table tbody tr:nth-child(odd) {
-  background-color: rgb(255, 183, 28)bb;; /* Colore di sfondo per le righe dispari (grigio chiaro) */
+  background-color: rgb(255, 183, 28)bb;;
 }
 
 table tbody tr:nth-child(even) {
-  background-color: #bb4b4b; /* Colore di sfondo per le righe pari (bianco) */
+  background-color: #bb4b4b;
 }
 
-/* Stile per le celle della tabella */
+/* Stile celle tabella */
 table td, table th {
-  height: 50px; /* Aumentata l'altezza delle celle */
-  padding: 10px; /* Maggiore spazio per migliorare la leggibilità */
-  text-align: center; /* Allinea il testo al centro */
-  border: 1px solid #dee2e6; /* Bordo grigio chiaro */
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dee2e6;
 }
 
-/* Effetto al passaggio del mouse su una riga */
+/* Effetto mouse su una riga */
 table tbody tr:hover {
-  background-color: #ffffffcb; /* Colore di sfondo quando si passa il mouse su una riga */
+  background-color: #ffffffcb;
 }
 
-/* Bordo della tabella */
+/* Bordo tabella */
 table {
-  border: 2px solid #c23434 ; /* Colore bordo blu chiaro */
-  border-radius: 10px; /* Angoli arrotondati */
+  border: 2px solid #c23434 ;
+  border-radius: 10px;
 }
 
-/* Stile per le celle di intestazione */
+/* Stile celle intestazione */
 table th {
-  font-weight: bold; /* Testo in grassetto */
-  text-transform: uppercase; /* Testo maiuscolo */
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-/* Colore del bordo per le intestazioni */
+/* Colore bordo intestazioni */
 table th {
-  border-bottom: 2px solid #810202; /* Bordo inferiore blu chiaro per le intestazioni */
+  border-bottom: 2px solid #810202;
 }
 
-/* Colore del bordo per le righe */
+/* Colore bordo righe */
 table td {
-  border-bottom: 1px solid #c23434; /* Bordo blu chiaro per le celle */
+  border-bottom: 1px solid #c23434;
 }
 
-/* Stile per il logo */
+/* Stile logo */
 .home-logo {
-  width: 120px; /* Imposta una larghezza fissa per il logo */
+  width: 120px;
   margin-top: 10px;
   margin-bottom: 20px;
   display: block;
@@ -76,7 +76,7 @@ table td {
   margin-right: auto;
 }
 
-/* Stile per la home page */
+/* Stile home page */
 .home-container {
   font-family: Arial, sans-serif;
   padding: 20px;
