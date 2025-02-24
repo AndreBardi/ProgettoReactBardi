@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import HomePage from './HomePage'; // Importiamo la nuova pagina iniziale
+import HomePage from './HomePage';
 import Assenza from './ChiamateHttp/assenza';
 import Docente from './ChiamateHttp/docente';
 import Studente from './ChiamateHttp/studente';
@@ -7,18 +7,16 @@ import Progetto from './ChiamateHttp/progetto';
 import Wp from './ChiamateHttp/wp';
 import Esame from './ChiamateHttp/esame';
 import './App.css';
-import logo from './academy.png'; // Aggiungi il logo
+import logo from './academy.png';
 
 function App() {
   return (
     <Router>
       <header className="header">
-        {/* Logo all'interno della header */}
         <div className="logo-container">
           <img src={logo} alt="Logo" className="header-logo" />
         </div>
 
-        {/* Navigazione */}
         <nav>
           <ul className="nav-links">
             <li><Link to="/" className="nav-item">Home</Link></li>
