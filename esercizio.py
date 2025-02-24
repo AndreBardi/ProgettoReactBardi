@@ -6,16 +6,12 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Carica il file JSON con i dati finti
 def load_fake_db():
     try:
-        # Percorso assoluto al file JSON
         json_file_path = '/home/user/Projects/ProgettoReact/my-vue-app/src/db.json'
-        
-        # Carica il contenuto del file JSON
+
         with open(json_file_path, 'r') as f:
             db_data = json.load(f)
-            # Verifica se il contenuto caricato è un dizionario
             if isinstance(db_data, dict):
                 return db_data
             else:
