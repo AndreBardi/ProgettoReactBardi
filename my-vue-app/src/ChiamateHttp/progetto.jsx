@@ -5,7 +5,7 @@ function Progetto() {
   const [progettoData, setProgettoData] = useState([]);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:5004/progetto') // La tua API Flask per progetto
+    fetch('http://127.0.0.1:5004/progetto')
       .then(response => response.json())
       .then(data => setProgettoData(data))
       .catch(error => console.error('Errore nel recupero dei dati: ', error));
