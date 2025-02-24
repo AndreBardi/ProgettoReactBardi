@@ -4,7 +4,7 @@ function Wp() {
   const [wpData, setWpData] = useState([]);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:5004/wp') // La tua API Flask per wp
+    fetch('http://127.0.0.1:5004/wp')
       .then(response => response.json())
       .then(data => setWpData(data))
       .catch(error => console.error('Errore nel recupero dei dati: ', error));
