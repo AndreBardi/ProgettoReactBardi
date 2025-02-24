@@ -4,7 +4,7 @@ function Studente() {
   const [studenteData, setStudenteData] = useState([]);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:5004/studente') // La tua API Flask per studente
+    fetch('http://127.0.0.1:5004/studente')
       .then(response => response.json())
       .then(data => setStudenteData(data))
       .catch(error => console.error('Errore nel recupero dei dati: ', error));
