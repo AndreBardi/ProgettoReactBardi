@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import './HomePage.css';
 
-// Importa l'immagine del logo
 import logo from './academy.png';
 
 function HomePage() {
